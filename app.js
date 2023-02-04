@@ -1,4 +1,4 @@
-var server = require("http").createServer();
+var express = require('express')
 
 server.on("request", (request, response) => {
     var body = [];
